@@ -1,5 +1,5 @@
 {
-  "name": "camp",
+  "name": "campmonk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arunab Singh",
   "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.13.0",

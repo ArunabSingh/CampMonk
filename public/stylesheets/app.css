@@ -1,0 +1,41 @@
+#cluster-map {
+    width: 100%;
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://res.cloudinary.com/bcityelpcamp/image/upload/v1630372467/YelpCamp/camp1_qrhvda.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+}
+
+#main-list{
+    padding-left: 0;
+}
+
+@media (max-width: 980px) {
+    #content{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 680px) {
+    #content{
+        grid-template-columns: 1fr;
+    }
+}

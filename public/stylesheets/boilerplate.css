@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(255, 255, 255);
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand{
+    font-size: 3.5vh;
+    font-weight: 800;
+    color: rgba(255,255,255,0.8);
+
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 600;
+    font-size: 2.5vh;
+    color: rgba(255,255,255,0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255,0.5);
+    border-bottom-color:rgba(255,255,255,0.5);
+}
+
+.nav-link.active {
+    color: white;
+    border-bottom-color:white;
+
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: whitesmoke;
+    text-shadow: none;
+}
+
+.new-campground-image{
+    background-image: url("https://images.unsplash.com/photo-1571863533956-01c88e79957e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.invalid-feedback{
+    text-shadow: 0 0 0 rgba(0, 0, 0);
+}
